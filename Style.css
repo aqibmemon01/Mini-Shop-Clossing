@@ -1,0 +1,22 @@
+input{
+	width:150px;
+}
+
+.innerset{
+	width:160px;
+	display:inline;
+}
+#a{
+	position: absolute;
+    top: 120px;
+    left:228px;
+}
+#b{
+	position: absolute;
+    top: 520px;
+    left:228px;
+}
+#totalcash, #totalsale{
+  margin:-12px 0 -5px 0;
+  font-size:20px;
+}

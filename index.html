@@ -1,0 +1,61 @@
+<head>
+<link rel="stylesheet" href="./Style.css" />
+<title>Clossing Calculator</title>
+</head>
+<body>
+<fieldset>
+<legend>Payment Side</legend>
+<fieldset class="innerset">
+<legend>Cash</legend>
+<label>Safe<input id="safe" onblur="cash()" type="number"></label><br>
+<label>5000<input id="fivet" onblur="cash()" type="number"></label><br>
+<label>1000<input id="onet" onblur="cash()"type="number"></label><br>
+<label>500<input id="fiveh"  onblur="cash()"type="number"></label><br>
+<label>100<input id="oneh"  onblur="cash()"type="number"></label><br>
+<label>50<input id="fifty"  onblur="cash()"type="number"></label><br>
+<label>Mix<input id="mix"  onblur="cash()"type="number"></label>
+<p>Total cash</p><p id="totalcash">00</p>
+</fieldset>
+
+<div id="a">
+<label>Total Expences<br><input id="expence" type="number"></label><br>
+<label>Total Cash<br><input id="totalcash2" type="number"></label><br>
+<h2 id="payment">00</h2>
+<h4 id="short"><h4>
+<button onclick="calculate()">Calculate</button>
+
+</div>
+</fieldset>
+<hr>
+
+<fieldset>
+<legend>Receipt Side</legend>
+<fieldset class="innerset">
+<legend>Sales</legend>
+<label>Younus Bhai<input onblur="sale()" id="younus" type="number"></label><br>
+<label>Iqbal Bhai<input onblur="sale()"id="iqbal" type="number"></label><br>
+<label>Yahya<input onblur="sale()"id="yahya" type="number"></label><br>
+<label>Rameez<input onblur="sale()"id="rameez" type="number"></label><br>
+<label>Owaise Lakh.<input onblur="sale()" id="owaise" type="number"></label>
+<p>Total Sale</p><p id="totalsale">00</p>
+</fieldset>
+<div id="b">
+<label>Total Income<br><input id="income" type="number"></label><br>
+<label>Total Sale<br><input id="totalsale2" type="number"></label><br>
+<h2 id="receipt">00</h2>
+<h4 id="extra"></h4>
+
+</div>
+</fieldset>
+</body>
+
+
+
+<script src="./App.js" >
+
+</script>
+    
+    
+    
+    
+    
